@@ -1,5 +1,20 @@
-# Project-1: Employee Reimbursment System (ERS)
-*Due Monday March 15th, 2021*
+# Revature Project-1: Employee Reimbursment System (ERS)
+
+-- TECH STACK -- 
+
+Front End:
+- HTML w/ JSP
+- CSS 
+- (Zero Lines of JavaScript)
+
+Back End:
+- Java
+- Maven
+- JDBC
+- Java Servlet
+
+Database:
+- Postgres (locally hosted)
 
 ## Executive Summary
 * The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. 
@@ -52,7 +67,7 @@ Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OT
 
 ## Technical Requirements
 
-* The back-end system shall use `JDBC` connect to an **AWS RDS Postgres database**. 
+
 * The application shall deploy onto a Tomcat Server. 
 * The middle tier shall use Servlet technology for dynamic Web application development. 
 * The front-end view shall use HTML/JavaScript to make an application that can call server-side components. 
