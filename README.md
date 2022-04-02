@@ -77,3 +77,4 @@ Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OT
 * Users can upload a document or image of their receipt when submitting reimbursements which can stored in the database and reviewed by a financial manager.
 * Passwords shall be encrypted in Java and securely stored in the database. 
 * Application shall be hosted remotely on an EC2.
+
