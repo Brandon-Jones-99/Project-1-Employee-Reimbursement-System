@@ -1,0 +1,312 @@
+
+/* UNIVERSAL STYLES */
+
+
+:root {
+  --myblue: #0f0e17; 
+  --myorange: #ff8906;
+  --mysalmon: #f25f4c;
+  --myrose: #e53170;
+  --mywhite: #fffffe;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: var(--mywhite);
+  
+}
+
+/* LOGINPAGE */
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(30%);
+  transition: 0.3s;
+}
+
+video:hover {
+  filter: brightness(80%);
+  transition: 0.3s;
+  
+}
+
+.backup-background {
+  background-color: var(--myblue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: brightness(30%);
+  transition: 0.3s;
+}
+
+.backup-background:hover {
+  filter: brightness(80%);
+  transition: 0.3s;
+}
+
+.main {
+  z-index: 0;
+  position: fixed;
+  border-radius: 20px;
+  background-color: var(--myblue);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.magic {
+ 
+  border-radius: inherit;
+  transition:0.3s ease;
+  
+}
+
+.magic:hover {
+  transform: scale3d(1.1,1.1,1.1);
+  background-color: var(--myblue);
+  transition: 0.3s ease;
+  
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3;
+}
+
+
+.span-orange {
+  color: var(--myorange);
+}
+
+.span-salmon {
+  color: var(--mysalmon);
+}
+
+.span-rose {
+	color: var(--myrose);
+}
+
+input[type="text"], textarea {
+
+  background-color : var(--myblue);
+
+}
+
+input[type="password"], textarea {
+
+  background-color : var(--myblue);
+
+}
+
+input[type="number"], textarea {
+
+  background-color: var(--myblue);
+}
+
+select {
+  background-color: var(--myblue);
+}
+
+select option {
+  
+  background-color: var(--myblue);
+}
+
+input[type="submit"] {
+  background-color: var(--myblue);
+  padding: 10px;
+  transition: 0.15s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--myrose);
+  transition: 0.15s;
+  transform: scale3d(1.1,1.1,1.1);
+  
+}
+
+input, select, textarea {
+  color: white;
+}
+
+/* LOGGED-IN-PAGES */
+
+.main-logged {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--myorange);
+  min-height: 100vh;
+  width: 100vw;
+  
+}
+
+.main-logged-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--mysalmon);
+  min-height: 100vh;
+  width: 100vw;
+  
+}
+
+.menu-logged {
+  color: var(--mywhite);
+  position: relative;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  transform: translate(9%, 0%);
+  background-color: var(--myblue);
+  width: 85%;
+  border-radius: 40px;
+}
+
+.dao-retrieval-holder {
+	
+	background-color: var(--myblue);
+	transform: translate(9%, 0%);
+	width: 85%;
+	border-radius: 40px;
+}
+
+.magic-letters {
+  
+  display:inline-block;
+  transition: 0.15s;
+}
+
+.magic-letters:hover {
+  transition: 0.15s;
+  color:var(--myorange);
+  transform: scale3d(1.3,1.3,1.3);
+  
+}
+
+.magic-letters-2 {
+  color:var(--myorange);
+  display:inline-block;
+  transition: 0.15s;
+}
+
+.magic-letters-2:hover {
+  transition: 0.15s;
+  color:var(--mywhite);
+  transform: scale3d(1.3,1.3,1.3);
+}
+
+.magic-letters-3 {
+  color:var(--mysalmon);
+  display:inline-block;
+  transition: 0.15s;
+}
+
+.magic-letters-3:hover {
+  transition: 0.15s;
+  color:var(--mywhite);
+  transform: scale3d(1.3,1.3,1.3);
+}
+
+.magic-letters-4 {
+  
+  display:inline-block;
+  transition: 0.15s;
+}
+
+.magic-letters-4:hover {
+  transition: 0.15s;
+  color:var(--mysalmon);
+  transform: scale3d(1.3,1.3,1.3);
+  
+}
+
+.nav-block {
+  display:inline-block;
+}
+
+.nav-holder {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.hidden-link {
+  display: none;
+}
+
+a {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 4px;
+  border-radius: 20px;
+  color: var(--myrose);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--mywhite);
+  background-color: var(--myrose);
+  border-radius: 20px;
+  transition: 0.3s;
+  transform: scale3d(1.1,1.1,1.1);
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-holder {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.form-message {
+  
+  border: 1px solid red;
+  color: red;
+  display: none;
+  font-weight: bold;
+
+}
+
+.form-message-invalid {
+  border: 1px solid red;
+  color: red;
+  display: block;
+  font-weight: bold;
+}
+
+
+
+
+
+/* .text-area-class {
+  
+} */
