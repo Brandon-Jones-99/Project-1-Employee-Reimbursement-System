@@ -1,5 +1,20 @@
-# Project-1: Employee Reimbursment System (ERS)
-*Due Monday March 15th, 2021*
+# Revature Project-1: Employee Reimbursment System (ERS)
+
+-- TECH STACK -- 
+
+Front End:
+- HTML w/ JSP
+- CSS 
+- (Zero Lines of JavaScript)
+
+Back End:
+- Java
+- Maven
+- JDBC
+- Java Servlet
+
+Database:
+- Postgres (locally hosted)
 
 ## Executive Summary
 * The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. 
@@ -32,33 +47,29 @@
 
 
 **State-chart Diagram (Reimbursement Statuses)** 
-![](./imgs/state-chart.jpg)
+![](./imgs/state-chart.png)
 
 **Reimbursement Types**
 
 Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER.
 
 **Logical Model**
-![](./imgs/logical.jpg)
+![](./imgs/logical.png)
 
 **Physical Model**
-![](./imgs/physical.jpg)
+![](./imgs/physical.png)
 
 **Use Case Diagram**
-![](./imgs/use-case.jpg)
+![](./imgs/use-case.png)
 
 **Activity Diagram**
-![](./imgs/activity.jpg)
+![](./imgs/activity.png)
 
 ## Technical Requirements
 
-* The back-end system shall use `JDBC` connect to an **AWS RDS Postgres database**. 
+
 * The application shall deploy onto a Tomcat Server. 
 * The middle tier shall use Servlet technology for dynamic Web application development. 
-* The front-end view shall use HTML/JavaScript to make an application that can call server-side components. 
-* The middle tier shall follow proper layered architecture, have reasonable test coverage of the service layer, and implement **log4j** for appropriate logging. 
+* The front-end view shall use HTML/JSP to make an application that can call server-side components. 
 
-**Stretch Goals:** *These will count for extra credit and are entirely optional*
-* Users can upload a document or image of their receipt when submitting reimbursements which can stored in the database and reviewed by a financial manager.
-* Passwords shall be encrypted in Java and securely stored in the database. 
-* Application shall be hosted remotely on an EC2.
+
