@@ -54,16 +54,16 @@ Database:
 Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER.
 
 **Logical Model**
-![](./imgs/logical.png)
+![](./imgs/logical.PNG)
 
 **Physical Model**
-![](./imgs/physical.png)
+![](./imgs/physical.PNG)
 
 **Use Case Diagram**
-![](./imgs/use-case.png)
+![](./imgs/use-case.PNG)
 
 **Activity Diagram**
-![](./imgs/activity.png)
+![](./imgs/activity.PNG)
 
 ## Technical Requirements
 
