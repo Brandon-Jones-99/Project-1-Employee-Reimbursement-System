@@ -5,7 +5,7 @@
 Front End:
 - HTML w/ JSP
 - CSS 
-- (Zero Lines of JavaScript)
+- (Zero Functional Lines of JavaScript)
 
 Back End:
 - Java
@@ -47,7 +47,7 @@ Database:
 
 
 **State-chart Diagram (Reimbursement Statuses)** 
-![](./imgs/state-chart.png)
+![](./imgs/state-chart.PNG)
 
 **Reimbursement Types**
 
