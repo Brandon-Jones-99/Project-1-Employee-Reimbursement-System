@@ -4,7 +4,7 @@
 
 https://www.loom.com/share/e51e9d02d8954ef291c312f5a9e69fc5
 
-##-- TECH STACK -- 
+## -- TECH STACK -- 
 
 #### Front End:
 - HTML w/ JSP
