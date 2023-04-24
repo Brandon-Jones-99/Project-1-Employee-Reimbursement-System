@@ -1,23 +1,23 @@
 # Project: Employee Reimbursment System (ERS)
 
-PROJECT DEMO VIDEO
+#### PROJECT DEMO VIDEO
 
 https://www.loom.com/share/e51e9d02d8954ef291c312f5a9e69fc5
 
--- TECH STACK -- 
+##-- TECH STACK -- 
 
-Front End:
+#### Front End:
 - HTML w/ JSP
 - CSS 
 - (Zero Functional Lines of JavaScript)
 
-Back End:
+#### Back End:
 - Java
 - Maven
 - JDBC
 - Java Servlet
 
-Database:
+#### Database:
 - Postgres (locally hosted)
 
 ## Executive Summary
